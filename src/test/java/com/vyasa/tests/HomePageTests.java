@@ -23,7 +23,7 @@ public class HomePageTests extends TestBase {
 	
 	@Test(priority=1)
 	public void verifyHomePageTitle() {
-	  String expectedTitle="Automation Practice";
+	  String expectedTitle="Automation Practice Site";
 	  String actualTitle=homepage.getHomePageTitle();
 	 Assert.assertEquals(actualTitle, expectedTitle);
 	 logger.info(" verifyHomePageTitle.......Pass");
