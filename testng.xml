@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vyasa.utils.DataFromXls"/>
+      <class name="com.vyasa.tests.DataDrivenTest"/>
+      <class name="com.vyasa.tests.HomePageTests"/>
+      <class name="com.vyasa.tests.TestBase"/>
+      <class name="com.vyasa.tests.MyAccountsPageTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
